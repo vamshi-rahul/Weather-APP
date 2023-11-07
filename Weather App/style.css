@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: none;
+    color: #0e64b0a1;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search {
+    text-align: center;
+    
+}
+
+.search input {
+    padding: 8px;
+    width: 60%;
+}
+
+.search button {
+    font-size: 14px;
+    color: #021120;
+    padding: 4px;
+   
+}
+
+.weather {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: none;
+    color: #0e0d0d;
+    text-align: center;
+    padding: 1rem;
+}
+#background {
+    background-image: url('cloud-background.jpeg'); /* Replace 'path-to-your-image.jpg' with the actual path to your cloud image. */
+    background-size: cover; /* This scales the image to cover the entire element. */
+    background-repeat: no-repeat; /* This prevents the image from repeating. */
+    background-attachment: fixed; /* This makes the background fixed as the page scrolls. */
+}
+
